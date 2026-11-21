@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paw Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <h2 class="logo">🐾 Paw Home</h2>
+
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#animals">Meet Our Pets</a>
+            </li>
+
+            <li>
+                <a href="#care">How to Care</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact Us</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>Welcome to Paw Home 🐾</h1>
+
+            <p>
+                A friendly place to learn about pets,
+                their needs, and how to take care of them.
+            </p>
+
+            <a href="#animals" class="main-button">
+                Meet Our Pets
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Animals -->
+    <section id="animals">
+
+        <h1>Meet Our Lovely Pets 🐾</h1>
+
+        <p class="section-text">
+            Learn more about some lovely pets and their basic needs.
+        </p>
+
+
+        <div class="animals-container">
+
+            <!-- Cat -->
+            <div class="animal-card">
+
+                <div class="animal-icon">🐱</div>
+
+                <h2>Cat</h2>
+
+                <p>
+                    Cats are independent, curious, and playful pets.
+                    They need clean water, healthy food, and a safe home.
+                </p>
+
+                <a href="#care">
+                    Learn How to Care
+                </a>
+
+            </div>
+
+
+            <!-- Dog -->
+            <div class="animal-card">
+
+                <div class="animal-icon">🐶</div>
+
+                <h2>Dog</h2>
+
+                <p>
+                    Dogs are friendly and active animals.
+                    They need exercise, healthy food, attention, and love.
+                </p>
+
+                <a href="#care">
+                    Learn How to Care
+                </a>
+
+            </div>
+
+
+            <!-- Rabbit -->
+            <div class="animal-card">
+
+                <div class="animal-icon">🐰</div>
+
+                <h2>Rabbit</h2>
+
+                <p>
+                    Rabbits are gentle and social pets.
+                    They need fresh food, clean water, space, and care.
+                </p>
+
+                <a href="#care">
+                    Learn How to Care
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Care -->
+    <section id="care">
+
+        <h1>How to Care for Pets ❤️</h1>
+
+        <div class="care-container">
+
+            <!-- Cat Care -->
+            <div class="care-box">
+
+                <h2>🐱 Cat Care</h2>
+
+                <ul>
+                    <li>Provide fresh water.</li>
+                    <li>Give healthy food.</li>
+                    <li>Keep the litter box clean.</li>
+                    <li>Give your cat attention and playtime.</li>
+                </ul>
+
+            </div>
+
+
+            <!-- Dog Care -->
+            <div class="care-box">
+
+                <h2>🐶 Dog Care</h2>
+
+                <ul>
+                    <li>Provide fresh water.</li>
+                    <li>Give healthy food.</li>
+                    <li>Take your dog for regular walks.</li>
+                    <li>Give your dog attention and exercise.</li>
+                </ul>
+
+            </div>
+
+
+            <!-- Rabbit Care -->
+            <div class="care-box">
+
+                <h2>🐰 Rabbit Care</h2>
+
+                <ul>
+                    <li>Provide fresh water.</li>
+                    <li>Give suitable food and hay.</li>
+                    <li>Keep the living area clean.</li>
+                    <li>Give enough safe space to move.</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Contact Us 📩</h1>
+
+        <p class="section-text">
+            Have a question or suggestion? Send us a message.
+        </p>
+
+
+        <!-- IMPORTANT:
+             There is NO action="#care"
+             so the form will not go to How to Care.
+        -->
+
+        <form id="contactForm">
+
+            <label for="name">
+                Your Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="email">
+                Your Email
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+
+            <label for="message">
+                Your Message
+            </label>
+
+            <textarea
+                id="message"
+                placeholder="Write your message"
+            ></textarea>
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+
+        <!-- JavaScript will show the result here -->
+        <p id="formMessage"></p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Paw Home | Made with ❤️ for animal lovers
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+    
+       
+
+    
+
+ 
